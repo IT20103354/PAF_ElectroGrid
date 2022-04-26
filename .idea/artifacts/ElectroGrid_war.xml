@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ElectroGrid:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ElectroGrid</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ElectroGrid-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ElectroGrid:war exploded" />
+    </root>
+  </artifact>
+</component>
