@@ -76,5 +76,12 @@ public class AdminResource {
 
     }
 
+    @DELETE
+    @Path("/delete/{id}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
+    public String deleteAdministrator(@PathParam("id") int id) {
+        String output = adminService.deleteAdministrator(id);
+        return output;
    }
 }
