@@ -55,9 +55,7 @@ public class AdminService {
             con.close();
 
         }
-        catch (Exception e) {
-            System.out.println("Error while reading the Administrators!");
-            System.err.println(e.getMessage());
+
         }
 
         return data;
